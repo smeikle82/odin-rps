@@ -41,7 +41,7 @@ function parseSelection(selector)
     return choice;
 }
 
-//todo Compare player and computer selections to determin round winner
+//Get Winner of Round
 function determinWinner(player, computer)
 {
     let result;
@@ -99,7 +99,7 @@ function determinWinner(player, computer)
     return result;
 }
 
-//todo Start Game
+//Starts a round of RPS
 function startRound()
 {
     let player = getPlayerSelection();
@@ -124,8 +124,7 @@ function startRound()
 
 }
 
-//todo Create multiple rounds
-
+//Starts the Game
 function game()
 {   
     let winCounter = 0;
